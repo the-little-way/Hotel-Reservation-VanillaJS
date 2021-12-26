@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="robots" content="noimageindex, noindex, nofollow, noarchive, nocache">
+    <title>View Available Rooms | Friendly Hotel Inc.</title>
+    <link href="assets/css/stylesheet.css" type="text/css" rel="stylesheet">
+	<link href="assets/css/form.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="assets/images/logo1.png" >
+  </head>
+  <body class="bodyMain">
+	<div id="wrapper">
+	<header>
+		<div id="navigation">
+		<img id="logoImg" src="assets/images/logo1.png">
+		<div class="menu">
+		<ul>
+            <li id="showMenu">Menu</li>
+         </ul>
+		 </div> 
+		</div>
+		<div id="dropMenu">
+		<div id="subMenu">
+			<ul>
+            <li><a href="">Home</a></li>
+            <li><a href="Hotel.html">New Bookings</a></li>
+            <li><a href="">My Account</a></li>
+            <li><a href="">Terms & Policy</a></li>
+            <li><a href="">Contact</a></li>
+			</ul>
+		</div>
+		<div id="bannerx">
+		</div>
+		</div>
+	</header>
+	
+	<div id="errorMain">
+		<h1 id="errorNotice"><span style="font-size:2em">SORRY!</span>
+		<br>This Page Can Only Be Viewed On A Mobile Device...
+		<br><br><span style="font-size:0.4em; color:black;">Copyright <span id="updateDate1">2020</span> - All rights reserved</span><h1>
+		<img id="errorNoticeImg" src="">
+	</div>
+	
+	<div id="actualMain">
+	  <span class="whiteFont">
+	    <h2>Available Rooms</h2>
+	    <h5>Browse through our premium array of available rooms</h5>
+	  </span>
+	  <div class="room1Main">
+	    <h2>Single Room</h2>
+	    <h3>Ideal for solo travelers</h3>
+	    <div id="room1Reviews"></div>
+	    <div id="room1Display"></div>
+	    <div id="roomMessage">
+	      <p>Please choose number of nights you will be staying</p>
+	      <div class="dates">
+	        <div class="dates2">
+	          <label><input id="room1Dates1" type="date">Starting Date:</label>
+	          <label><input id="room1Dates2" type="date">Ending Date:</label>
+	          <label><button id="room1Submit" class="btn-3" type="submit" value="0">Book Now!</button>200 a night</label>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="room1Main">
+	    <h2>King's Suite</h2>
+	    <h3>Our best room for couples</h3>
+	    <div id="room2Reviews"></div>
+	    <div id="room2Display"></div>
+	    <div id="roomMessage">
+	      <p>Please choose number of nights you will be staying</p>
+	      <div class="dates">
+	        <div class="dates2">
+	          <label><input id="room2Dates1" type="date">Starting Date</label>
+	          <label><input id="room2Dates2" type="date">Ending Date</label>
+	          <label><button id="room2Submit" class="btn-3" type="submit" value="1">Book Now!</button>350 a night</label>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="room1Main">
+	    <h2>Executive Suite</h2>
+	    <h3>Welcome to the VIP experience</h3>
+	    <div id="room3Reviews"></div>
+	    <div id="room3Display"></div>
+	    <div id="roomMessage">
+	      <p>Please choose number of nights you will be staying</p>
+	      <div class="dates">
+	        <div class="dates2">
+	          <label><input id="room3Dates1" type="date">Starting Date:</label>
+	          <label><input id="room3Dates2" type="date">Ending Date:</label>
+	          <label><button id="room3Submit" class="btn-3" type="submit" value="2">Book Now!</button>600 a night</label>
+	        </div>
+	      </div>
+	    </div>
+	  </div>
+	  <a href="" class="nextPage" style="text-align:center;">Next Page ></a>
+	</div>
+
+	
+	<div id="popupMain">
+	<div id="popupMini">
+		<div  id="popClose">
+		<input type="button" id="popCloseBtn">
+		<div class="popCloseX1"></div>
+		<div class="popCloseX2"></div>
+		</div>
+		
+		<div role="main" id="showHotelMini"><img id="selectedHotelImg" src="" />
+		  <div class="">
+		    <div id="cid_6" class="form-input-wide">
+		      <p style="margin-top:10px;">You have selected to stay<br />at the<br /><span id="hotelName" style="color:#ed8fff;font-weight:bold; font-size:20px;">...Suite</span>
+		        <br />for a total of<br /><span id="totalNights" style="color:white;font-weight:bold;">...Nights</span></p>
+		    </div>
+		    <div class="popBtnsPara1" style="margin-top:20px;">
+		      <div class="popBtnsPara2"><input id="toPayment" type="submit" value="Checkout" /></div>
+		      <div class="popBtnsPara2"><input id="cancelOut" type="submit" value="Cancel" /></div>
+		    </div>
+		  </div>
+		</div>
+
+		<div role="main" id="checkoutMini">
+		  <div class="outImg"></div>
+		  <ul class="form-section" style="padding: 0px 10px;">
+		    <li class="infoHeading">
+		      <p>Enter your details below to complete the payment! (Demo, don't fill)</p>
+		    </li>
+		    <li class="form-line"><label class="form-label">Full Name<span class="form-required">
+		          *</span></label><input id="ccName" data-type="input-textbox" size="30" value="" placeholder="full name..." data-component="textbox" required="" type="text" />
+		    </li>
+		    <li class="form-line"><label class="form-label">Credit card number<span class="form-required">
+		          *</span></label><input id="ccNumber" type="input-textbox" size="30" value="" placeholder="credit card number..." data-component="textbox" required="" type="text" />
+		    </li>
+		    <li class="form-line">
+		      <div style="display:flex;">
+			  <label class="form-label">Security code<span class="form-required">
+		            *</span><input id="ccCode" name="q7_creditCard7" type="input-textbox" value="" placeholder="x x x" required="" type="text" />
+				</label>
+				<label class="form-label">Expiry date<span class="form-required">
+		            *</span><input id="ccDate" type="date" size="30" value="" placeholder="" required="" type="text" />
+			  </label>
+		      </div>
+		    </li>
+		    <li class="form-line">
+				<label class="form-label">Email Address<span class="form-required">*</span>
+				</label>
+				<input id="ccMail" name="q4_emailAddress" size="30" value="" placeholder="your email..." data-component="email" required="" type="email" />
+			</li>
+		    <div class="form-line" style="margin-top:10px;">
+				<input id="toPaymentFinal" type="submit" value="End of demo">
+			</div>
+		  </ul>
+		</div>
+
+
+			
+	</div>
+	</div>
+
+	</div>
+	
+	<footer>
+	<div class="footerDiv">
+		<div>
+			<h3>LOCATION</h3>
+			<p>
+			311 Fullstack
+			<br>Lorem Ipsum Road
+			<br>210400
+			<br>Country
+			</p>
+		</div>
+		<div>
+			<h3>QUICK LINKS</h3>
+			<ul>
+			<li><a href="hotel.html">Book A Room</a></li>
+			<li><a href="">Cancle Booking</a></li>
+			<li><a href="">Location On Map</a></li>
+			<li><a href="">Customer Support</a></li>
+			</ul>
+		</div>
+	</div>
+	<p style="font-size: 11px;font-weight: 700;text-align: center;">Copyright <span id="updateDate2">2020</span> - All rights reserved</p>
+	<script src="assets/js/js.js"></script>	
+	</footer>
+  </body>
+  </html>
