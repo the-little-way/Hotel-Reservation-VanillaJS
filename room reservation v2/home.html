@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="" content="">
+    <title>View Available Rooms | Friendly Hotel Inc.</title>
+    <link href="assets/css/stylesheet.css" type="text/css" rel="stylesheet">
+	<script src="assets/js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+	<div id="wrapper">
+	<header>
+		<div id="navigation">
+		<img id="logoImg" src="assets/images/logo1.png">
+		<ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">New Bookings</a></li>
+            <li><a href="">My Account</a></li>
+            <li><a href="">Terms & Policy</a></li>
+            <li><a href="">Contact</a></li>
+         </ul>
+		  
+		</div>
+	</header>
+	<div id="errorMain">
+		<h1 id="errorNotice"><span style="font-size:2em">SORRY!</span>
+		<br>This Page Can Only Be Viewed On A Mobile Device...
+		<br><br><span style="font-size:0.4em; color:black;">Copyright 2021 - All rights reserved</span><h1>
+		<img id="errorNoticeImg" src="">
+	</div>
+	
+	<div id="actualMain">
+		<span class="whiteFont">
+		<h2>Available Rooms</h2>
+		<h5>Browse through our premium array of available rooms</h5>
+		</span>
+	<div class="room1Main">
+		<h2>Single Room</h2>
+		<h3>Ideal for solo travelers</h3>
+		<div id="room1Reviews"></div>
+		<div id="room1Display"></div>
+		<div id="roomMessage">
+		<p>Please choose number of nights you will be staying</p>
+		<div class="dates">
+		<label><input id="room1Dates1" type="date">Starting Date:</label>
+		<label><input id="room1Dates2" type="date">Ending Date:</label>
+		<label><button id="room1Submit"class="btn-3"  type="submit" value="0">Book Now!</button></label>
+		</div>
+		</div>
+	</div>
+	<div class="room1Main">
+		<h2>King's Suite</h2>
+		<h3>Our best room for couples</h3>
+		<div id="room2Reviews"></div>
+		<div id="room2Display"></div>
+		<div id="roomMessage">
+		<p>Please choose number of nights you will be staying</p>
+		<div class="dates">
+		<label><input id="room2Dates1" type="date">Starting Date:</label>
+		<label><input id="room2Dates2" type="date">Ending Date:</label>
+		<label><button id="room2Submit" class="btn-3" type="submit" value="1">Book Now!</button></label>
+		</div>
+		</div>
+	</div>
+	<div class="room1Main">
+		<h2>Executive Suite</h2>
+		<h3>Welcome to the VIP experience</h3>
+		<div id="room3Reviews"></div>
+		<div id="room3Display"></div>
+		<div id="roomMessage">
+		<p>Please choose number of nights you will be staying</p>
+		<div class="dates">
+		<label><input id="room3Dates1" type="date">Starting Date:</label>
+		<label><input id="room3Dates2" type="date">Ending Date:</label>
+		<label><button id="room3Submit" class="btn-3" type="submit" value="2">Book Now!</button></label>
+		</div>
+		</div>
+	</div>
+	<a href="" class="nextPage">Next Page ></a>
+	</div>
+	
+	<div id="popupMain">
+	<div id="popupMini">
+	<div  id="popClose">
+	<input type="button" id="popCloseBtn">
+	<div class="popCloseX1"></div>
+	<div class="popCloseX2"></div>
+	</div>
+	<img id="selectedHotelImg" src="">
+	<div class="rightMini">
+	<p style="margin-top:20px";>You have selected to stay
+	</br>at the
+	<br><span id="hotelName" style="color:white;font-weight:bold; font-size:20px;">...Suite</span>
+	<br>for a total of
+	<br><span id="totalNights" style="color:white;font-weight:bold;">...Nights</span>
+	</style></p>
+	<p style="display:block; text-align:center; margin: 5px auto 0px;">
+	<label><input id="toCheckout" type="submit" value="Proceed To Checkout"></label>
+	</p>
+	<p  style="display:block; text-align:center; margin: 0px auto;">
+	<label><input id="cancelOut" type="submit" value="Cancel"></label>
+	</p>
+	</div>
+	
+	</div>
+	</div>
+	
+	</div>
+	
+	<script src="assets/js/js.js"></script>
+	<footer>
+	</footer>
+  </body>
+  </html>

@@ -1,0 +1,321 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: Helvetica, Sans-serif;
+}
+
+#navigation {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	left: 0px;
+	position: ;
+	z-index: ;
+	height: 63px;
+	top: 0px;
+	background-color: rgb(255, 255, 255);
+	border: 1px solid rgb(235, 235, 235);
+	border-radius: 0px;
+	align-content: center;
+}
+
+#navigation ul {
+	display: block;
+	align-items: center;
+	padding: 20px;
+}
+
+#navigation ul li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px 30px;
+	text-decoration: none;
+}
+
+#navigation ul li a{
+	text-decoration: none;
+	color: black;
+	font-family: Helvetica, Sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+#navigation ul li a:hover {
+	color: blue;
+}
+
+#logoImg {
+	background-color: grey;
+    height: inherit;
+    background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#wrapper {
+	background: white /* rgb(255,226,226); */
+	height: 100vh; 
+}
+
+#errorNotice {
+	margin-top: 10%;
+	text-align: center;
+	font-weight: bolder;
+	color: red;
+	font-family: Arial;
+}
+
+#errorMain {
+	display:none;
+}
+
+#actualMain h2 {
+	margin-top: 30px;
+}
+
+.whiteFont {
+	color: white;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: ;
+}
+
+#actualMain {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 540px;
+	height: auto;
+	margin: 0px auto;
+	background-color: #d479cf;
+}
+
+.room1Main {
+	height: 450px;
+	background-color: white;
+	width: 520px;
+	padding: 20px 10px;
+	display: flex;
+	flex: 500px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	margin: 25px 0px;
+	border-radius: 10px;
+}
+
+#room1Display {
+	background: url('../images/single1.jpg') no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 90%;
+	margin: 10px auto;
+}
+
+#room2Display {
+	background: url('../images/king1.jpg') no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 90%;
+	margin: 10px auto;
+}
+
+#room3Display {
+	background: url('../images/vip1.jpg') no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 90%;
+	margin: 10px auto;
+}
+
+.dates {
+	justify-content: space-around;
+	display: flex;
+	flex: ;
+	align-content: center;
+	text-align: center;
+	margin: 0px 5px;
+}
+
+input[type="date"], input[type="submit"], .btn-3  {
+	background-color: #85afff;
+	border-radius: 5px;
+	border: none;
+	color: #fff;
+	padding: 9px;
+	font-family: Helvetica, Sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	letter-spacing: 0;
+	font-weight: 600;
+	letter-spacing: 0;
+	text-align: center;
+	box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.32);
+	width: ;
+	margin: 10px;
+	align-self: center;
+	display: block;
+}
+
+input[type="submit"], .btn-3 {
+	 background-color: #29b40f;
+ }
+ 
+input[type="submit"]:hover, .btn-3:hover {
+	 background-color: #27c996;
+ }
+
+input[type="date"]:hover {
+	background-color: #00dcff;
+}
+
+#roomMessage {
+	text-align: center;
+}
+
+#room1Reviews {
+	background: url('../images/stars1.png') no-repeat;
+	background-size: contain;
+	height: 30px;
+	width: 120px;
+	margin: 10px auto;
+}
+
+#room2Reviews {
+	background: url('../images/stars2.png') no-repeat;
+	background-size: contain;
+	height: 30px;
+	width: 120px;
+	margin: 10px auto;
+}
+
+#room3Reviews {
+	background: url('../images/stars3.png') no-repeat;
+	background-size: contain;
+	height: 30px;
+	width: 120px;
+	margin: 10px auto;
+}
+
+#popupMain {
+	display: block;
+	background-color: #0009;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#popupMini {
+	display: flex;
+	background-color: white;
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	z-index: 11;
+	top: 50%;
+	left: 50%;
+	right:  ;
+	bottom:  ;
+	transform: translate(-50%,-50%);
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	justify-content: center;
+}
+
+#selectedHotelImg {
+	height: 90%;
+	width: 50%;
+	background-color: #efefef;
+	margin: 10px auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 50%;
+	border: 10px solid #a72a7b; /* #fd8ea4*/
+}
+
+.rightMini {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	padding: auto 5px;
+	background-color: #85afff;
+	border-radius: 10px;
+	width: 45%;	
+}
+
+#cancelOut {
+	background-color: #e12900;
+}
+
+#cancelOut:hover {
+	background-color: #822f00;
+}
+
+#popClose {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	border-radius: 50%;
+	background-color: white;
+	z-index: 12;
+	top: 5%;
+	left: 90%;
+	/*transform: translate(-50%,-50%); */
+}
+
+#popCloseBtn {
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	border-radius: 50%;
+	background-color: transparent;
+	box-shadow:1px 1px 2px 1px rgba(0, 0, 0, 0.30);
+	z-index: 25;
+	top: 0px;
+	left: 0px;
+}
+
+
+.popCloseX1 {
+	height: 20px;
+	width: 4px;
+	background-color: black;
+	transform: rotate(315deg);
+	position: absolute;
+	border-radius: ;
+	background-color: black;
+	z-index: 20;
+	top: 5px;
+	left: 13px;
+}
+
+.popCloseX2 {
+	height: 20px;
+	width: 4px;
+	background-color: black;
+	transform: rotate(45deg);
+	position: absolute;
+	border-radius: ;
+	background-color: black;
+	z-index: 21;
+	top: 5px;
+	left: 13px;
+}
+
+.nextPage {
+	margin: 20px auto 55px;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #006f6d;
+	height: 150px;
+}
